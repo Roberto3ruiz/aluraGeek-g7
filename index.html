@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bienvenido a Alura Geek, la mejor tienda en línea para encontrar productos geek y tecnológicos. Explora nuestro catálogo y encuentra lo que buscas.">
+  <meta name="author" content="Tu nombre o equipo G7">
+  <meta name="keywords" content="Alura Geek, tienda geek, productos tecnológicos, gadgets, videojuegos, cultura pop">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Fuentes externas (Google Fonts, por ejemplo) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Iconos (por ejemplo, Font Awesome o similares) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-xxxxxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<body>
+    <!-- Header  -->
+    <header>
+        <nav class="header">
+            <img src="./img/corazones-alura.png" alt="corazones alura">
+            <h1>AluraGeek G7</h1>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="containerProducts">
+
+            <h2>Shopping Cart:</h2>
+            <div id="products">
+
+                <!-- AQUI SE IMPRIMEN LOS PRODUCTOS -->
+
+            </div>
+
+
+        </section>
+
+        <section id="containerForm">
+            <h2>Agrega tu producto:</h2>
+            <div id="formContent">
+                <form action="">
+                    <input id="nameProductForm" type="text" placeholder="Escribe aqui el nombre..." maxlength="50" >
+                    <input id="priceProductForm" type="number" placeholder="Coloca el precio..." >
+                    <input id="imgProductForm" type="text" placeholder="Link de la imagen...">
+                    <div class="btn-form">
+                        <button id="btnSend">Enviar</button>
+                        <button id="btnClean">Limpiar</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="./img/corazones-alura.png" alt="corazones alura">
+            <h2>AluraGeek</h2>
+        </div>
+        <p>Roberto Ramirez Ruiz</p>
+        <p>Alura Latam  2025</p>
+    </footer>
+
+
+    <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>

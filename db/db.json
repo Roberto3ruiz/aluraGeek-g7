@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Stormtrooper",
+      "price": 160,
+      "img": "../img/producto-1.png"
+    },
+    {
+      "id": "2",
+      "name": "Game Boy Classic",
+      "price": 90,
+      "img": "../img/producto-2.png"
+    },
+    {
+      "id": "b47a",
+      "name": "alonso",
+      "price": 33,
+      "img": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"
+    },
+    {
+      "id": "33b8",
+      "name": "alonso",
+      "price": 1111,
+      "img": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"
+    },
+    {
+      "id": "2708",
+      "name": "alonso",
+      "price": 11,
+      "img": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"
+    },
+    {
+      "id": "86af",
+      "name": "11",
+      "price": 111,
+      "img": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"
+    },
+    {
+      "id": "c746",
+      "name": "1",
+      "price": 111,
+      "img": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"
+    },
+    {
+      "id": "733e",
+      "name": "1",
+      "price": 111,
+      "img": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"
+    }
+  ]
+}
